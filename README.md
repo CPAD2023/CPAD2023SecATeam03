@@ -1,2 +1,1 @@
-# CPAD2023SecATeam03
-CPAD2023SecATeam03
+# rn-chat-app
