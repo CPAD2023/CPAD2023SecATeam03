@@ -10,6 +10,11 @@ const userAuthReducer = (state = null, action) => {
         ...state,
         user: null,
       };
+    case "SET_USER_STATE":
+      return {
+        ...state,
+        user: action.state,
+      };
     default:
       return state;
   }
